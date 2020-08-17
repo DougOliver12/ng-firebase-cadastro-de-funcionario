@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.1.0.
 
@@ -26,3 +27,7 @@ Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protrac
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
 "# angular_Firebase_Crud" 
+=======
+# ng-firebase-cadastro-de-funcionario
+Cadastro de Funcionários utilizando o BD nosql Firebase junto com angular
+>>>>>>> df229c43d6ca61fc15c96d0e6050f5905bb465b6
