@@ -1,6 +1,6 @@
-# ng-firebase-cadastro-de-funcionario
+# ng firebase cadastro de funcionário
 
-Cadastro de Funcionários utilizando o BD nosql Firebase junto com angular
+Cadastro de Funcionários utilizando o BD NOSQL Firebase junto com angularJS.
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.1.0.
 
