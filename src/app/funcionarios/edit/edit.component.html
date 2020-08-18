@@ -1,14 +1,26 @@
 <h3>Cadastro de Funcionários</h3>
 
 <form (ngSubmit)="onSubmit()">
+
   <div class="form-group">
     <label>Nome</label>
-    <input type="text" class="form-control" [(ngModel)]="funcionario.nome" name="nome" placeholder="Nome do Funcionario" />
+    <input type="text" class="form-control" [(ngModel)]="funcionario.nome" name="nome" placeholder="Nome do Funcionario">
   </div>
 
   <div class="form-group">
     <label>Departamento</label>
-    <input type="text" class="form-control" [(ngModel)]="funcionario.departamento" name="departamento" placeholder="Departamento do Funcionario" />
+    <input type="text" class="form-control" [(ngModel)]="funcionario.departamento" name="departamento" placeholder="Departamento do Funcionario">
+  </div>
+
+  <div class="form-group">
+    <label>Endereço de email</label>
+    <input type="email" class="form-control" [(ngModel)]="funcionario.email" name="email" aria-describedby="emailHelp" placeholder="Seu email">
+    <small id="emailHelp" class="form-text text-muted">Nunca vamos compartilhar seu email, com ninguém.</small>
+  </div>
+
+  <div class="form-group">
+    <label>Senha</label>
+    <input type="password" class="form-control" [(ngModel)]="funcionario.password" name="password" placeholder="Senha">
   </div>
 
   <button type="submit" class="btn btn-primary">Gravar</button>

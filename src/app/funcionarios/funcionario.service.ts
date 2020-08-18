@@ -19,9 +19,9 @@ export class FuncionarioService {
 
   update(funcionario: Funcionario, key: string) {
     this._angularFireDatabase.list('funcionarios').update(key, funcionario)
-      .catch((error: any) => {
+     // .catch((error: any) => {
         //console.error(error);
-      });
+     // });
   }
 
   getAll() {

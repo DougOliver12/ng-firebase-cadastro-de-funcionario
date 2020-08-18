@@ -2,12 +2,17 @@
     <thead>
         <th>Nome</th>
         <th>Departamento</th>
+        <th>Email</th>
+        <th>Senha</th>
         <th></th>
     </thead>
     <tbody>
         <tr *ngFor="let funcionario of funcionarios | async">
         <td>{{funcionario.nome}}</td>
         <td>{{funcionario.departamento}}</td>
+        <td>{{funcionario.email}}</td>
+        <td>{{funcionario.password}}</td>
+
         <td>
             <button type="button" class="btn btn-info" (click)="edit(funcionario, funcionario.key)">Editar</button>
             <button type="button" class="btn btn-danger ml-2" (click)="delete(funcionario.key)">Excluir</button>

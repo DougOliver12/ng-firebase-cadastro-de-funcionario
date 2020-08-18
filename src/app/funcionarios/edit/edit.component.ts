@@ -10,10 +10,10 @@ import { FuncionarioDataService } from '../funcionario-data.service';
 })
 export class EditComponent implements OnInit {
 
-  funcionario: Funcionario
+  funcionario: Funcionario;
   key: string = '';
 
-  constructor(private funcionarioService: FuncionarioService, 
+  constructor(private funcionarioService: FuncionarioService,
               private funcionarioDataService: FuncionarioDataService) { }
 
   ngOnInit() {
@@ -23,6 +23,8 @@ export class EditComponent implements OnInit {
         this.funcionario = new Funcionario();
         this.funcionario.nome = data.funcionario.nome;
         this.funcionario.departamento = data.funcionario.departamento;
+        this.funcionario.email = data.funcionario.email;
+        this.funcionario.password = data.funcionario.password;
         this.key = data.key;
       }
     })
