@@ -4,15 +4,7 @@
 
 export const environment = {
   production: false,
-  firebaseConfig : {
-    apiKey: "AIzaSyAEBkUnYCSwSwTgLXVnVoTCpUJ4L60rHsw",
-    authDomain: "projeto-em-firebase-ee71b.firebaseapp.com",
-    databaseURL: "https://projeto-em-firebase-ee71b.firebaseio.com",
-    projectId: "projeto-em-firebase-ee71b",
-    storageBucket: "projeto-em-firebase-ee71b.appspot.com",
-    messagingSenderId: "898205645355",
-    appId: "1:898205645355:web:9ff2b19a452fe89df4486e",
-    measurementId: "G-79C4KEM3D0"
+//AQUI SE COLOCA AS CONFIGS DO FIREBASE
 }}
 
 /*
